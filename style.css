@@ -51,7 +51,7 @@
     width: 60px;
     height: 60px;
     background: red;
-    transition: 1s;
+    transition: all 1s;
 }
 
 .ex-5-square:hover {
@@ -66,13 +66,55 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+/* solution 6-square */
+
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.6) contrast(200%);
+}
+/* solution 7-square */
+
+.ex-8-img {
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.6) contrast(200%);
+    border-radius: 30%;
+}
+
+/* solution 8-square */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transform: all 2s;
 }
+
+.ex-9-img:hover {
+    filter: grayscale(.6) contrast(200%);
+    border-radius: 30%;
+    transform: scale(1.5);
+}
+/* solution 9-square */
+
 .ex-10-icon {
     font-size: 60px;
+    animation: circle 1s linear infinite;
 }
+
+@keyframes circle {
+    0% {
+        transform: rotate(10turn);
+    }
+}
+/* solution 10-square */
+
 .ex-11-icon {
     font-size: 60px;
 }
